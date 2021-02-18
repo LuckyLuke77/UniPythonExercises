@@ -8,8 +8,8 @@
 import tweepy
 import webbrowser
 
-consumer_key = "wcnXcos81AbbRUmav7F5etvx7" #API key
-consumer_secret = "GmgadKmFZ2LAKvlTb50sZiZAttwJIfdEZB5v0aau9Bv2DwIVmP" #API key secret
+consumer_key = " " #API key
+consumer_secret = " " #API key secret
 callback_uri = 'oob'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret, callback_uri) #Some tweepy stuff that i don't really understand
 redirect_url = auth.get_authorization_url()                             #Gets the url that redirects you to the tweeter authorization page
